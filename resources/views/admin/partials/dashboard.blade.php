@@ -33,14 +33,14 @@
                                     </div>
                                     <div class="d-flex align-items-end justify-content-between mt-4">
                                         <div>
-                                            <h4 class="fs-22 fw-semibold ff-secondary mb-4">$<span class="counter-value"
-                                                    data-target="559.25">0</span>k
+                                            <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value"
+                                                    data-target="{{ count($services) }}">0</span>
                                             </h4>
-                                            <a href="" class="text-decoration-underline">See details</a>
+                                            <a href="/services" class="text-decoration-underline">See details</a>
                                         </div>
                                         <div class="avatar-sm flex-shrink-0">
                                             <span class="avatar-title bg-soft-success rounded fs-3">
-                                                <i class="bx bx-dollar-circle text-success"></i>
+                                                <i class="bx bx bx-repost text-success"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@
                                         </div>
                                         <div class="avatar-sm flex-shrink-0">
                                             <span class="avatar-title bg-soft-warning rounded fs-3">
-                                                <i class="bx bx-user-circle text-warning"></i>
+                                                <i class="bx bx-dollar-circle text-warning "></i>
                                             </span>
                                         </div>
                                     </div>

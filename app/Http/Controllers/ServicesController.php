@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Services;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use App\Http\Requests\StoreServicesRequest;
-use App\Http\Requests\UpdateServicesRequest;
+
 
 class ServicesController extends Controller
 {
@@ -13,9 +15,11 @@ class ServicesController extends Controller
      */
     public function index()
     {
+        // $cari = Services::findOrFail('id');
+        // dd($cari);
         return view('admin.services.index', [
             'tittlePage'    =>  'Services',
-            'allserv'       =>  Services::all()
+            'allserv'       =>  Services::all(),
         ]);
     }
 
@@ -49,32 +53,52 @@ class ServicesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Services $services)
+    public function showw($id)
     {
-        //
+        $Service = Services::find($id);
+        return view('admin.services.detail', [
+            'tittlePage'    =>  'Service Detail',
+            'services'      =>  $Service
+        ]);
+    }
+    public function editt($id)
+    {
+        $Service = Services::find($id);
+        return view('admin.services.edit', [
+            'tittlePage'    =>  'Service Update',
+            'services'      =>  $Service
+        ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Services $services)
+    public function updated(Request $request, $id)
     {
-        //
+        $Service = Services::find($id);
+        $validateUpdate = $request->validate([
+            'image'     =>  'image|file',
+            'tittle'    =>  'required',
+            'deskripsi' =>  'required'
+        ]);
+
+        if ($request->file('image')) {
+            if ($request->imageprodukOld) {
+                Storage::delete($request->imageprodukOld);
+            }
+
+            $validateUpdate['image'] = $request->file('image')->store('img-service');
+        }
+        Services::where('id', $Service->id)
+            ->update($validateUpdate);
+        return redirect('/services')->with('success', 'Sukses Update Service !! ' . $Service->tittle);
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateServicesRequest $request, Services $services)
+    public function delete($id)
     {
-        //
-    }
+        $services = Services::find($id);
+        if ($services->image) {
+            Storage::delete($services->image);
+        }
+        Services::destroy($services->id);
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Services $services)
-    {
-        //
+        return redirect('/services')->with('success', 'Delete Service Sukses');
     }
 }

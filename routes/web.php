@@ -37,4 +37,8 @@ Route::post('/registrasi', [RegistrasiController::class, 'registrasi']);
 Route::get('/dashboard', [DashboardController::class, 'dash'])->middleware('auth');
 
 // Services admin
-Route::resource('/services', ServicesController::class)->middleware('guest');
+Route::resource('/services', ServicesController::class)->except('show', 'edit', 'update', 'destroy')->middleware('auth');
+Route::delete('/services/{id}', [ServicesController::class, 'delete'])->middleware('auth');
+Route::get('/services/{id}', [ServicesController::class, 'showw'])->middleware('auth');
+Route::get('/services/{id}/edit', [ServicesController::class, 'editt'])->middleware('auth');
+Route::post('/services/{id}/edit', [ServicesController::class, 'updated'])->middleware('auth');

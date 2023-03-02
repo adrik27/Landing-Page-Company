@@ -183,25 +183,30 @@
                                                 <ul class="list-inline hstack gap-2 mb-0">
                                                     <li class="list-inline-item" data-bs-toggle="tooltip"
                                                         data-bs-trigger="hover" data-bs-placement="top" title="View">
-                                                        <a href="apps-ecommerce-order-details.html"
+                                                        <a href="/services/{{ $serv->id }}"
                                                             class="text-primary d-inline-block">
                                                             <i class="ri-eye-fill fs-16"></i>
                                                         </a>
                                                     </li>
-                                                    <li class="list-inline-item edit" data-bs-toggle="tooltip"
-                                                        data-bs-trigger="hover" data-bs-placement="top" title="Edit">
-                                                        <a href="#showModal" data-bs-toggle="modal"
+                                                    <li class="list-inline-item edit" title="Edit">
+                                                        <a href="/services/{{ $serv->id }}/edit"
                                                             class="text-primary d-inline-block edit-item-btn">
                                                             <i class="ri-pencil-fill fs-16"></i>
                                                         </a>
                                                     </li>
+
                                                     <li class="list-inline-item" data-bs-toggle="tooltip"
                                                         data-bs-trigger="hover" data-bs-placement="top" title="Remove">
-                                                        <a class="text-danger d-inline-block remove-item-btn"
-                                                            data-bs-toggle="modal" href="#deleteOrder">
-                                                            <i class="ri-delete-bin-5-fill fs-16"></i>
-                                                        </a>
+                                                        <form action="/services/{{ $serv->id }}" method="POST">
+                                                            @method('DELETE')
+                                                            @csrf
+                                                            <button class="btn text-danger" data-bs-toggle="modal"
+                                                                onclick="return confirm('Yakin data ingin di hapus?')">
+                                                                <i class="ri-delete-bin-5-fill fs-16"></i>
+                                                            </button>
+                                                        </form>
                                                     </li>
+
                                                 </ul>
                                             </td>
                                         </tr>
@@ -295,6 +300,7 @@
                         </div>
 
                         <!-- Modal -->
+
                         <div class="modal fade flip" id="deleteOrder" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
@@ -312,14 +318,19 @@
                                                     data-bs-dismiss="modal"><i
                                                         class="ri-close-line me-1 align-middle"></i>
                                                     Close</button>
-                                                <button class="btn btn-danger" id="delete-record">Yes,
+
+                                                @method('delete')
+                                                @csrf
+                                                <button type="submit" class="btn btn-danger" id="delete-record">Yes,
                                                     Delete It</button>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <!--end modal -->
                     </div>
                 </div>
@@ -333,23 +344,4 @@
     <!-- container-fluid -->
 </div>
 <!-- End Page-content -->
-
-<footer class="footer">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-                <script>
-                    document.write(new Date().getFullYear())
-                </script> © Velzon.
-            </div>
-            <div class="col-sm-6">
-                <div class="text-sm-end d-none d-sm-block">
-                    Design & Develop by Themesbrand
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- end main content-->
 @endsection
