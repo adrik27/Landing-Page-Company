@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LandingpageController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegistrasiController;
 use App\Http\Controllers\ServicesController;
@@ -42,3 +43,6 @@ Route::delete('/services/{id}', [ServicesController::class, 'delete'])->middlewa
 Route::get('/services/{id}', [ServicesController::class, 'showw'])->middleware('auth');
 Route::get('/services/{id}/edit', [ServicesController::class, 'editt'])->middleware('auth');
 Route::post('/services/{id}/edit', [ServicesController::class, 'updated'])->middleware('auth');
+
+// Landing page
+Route::get('/landingpage', [LandingpageController::class, 'index'])->middleware('guest');
