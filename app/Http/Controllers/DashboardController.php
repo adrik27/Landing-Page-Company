@@ -14,8 +14,8 @@ class DashboardController extends Controller
         return view('admin.partials.main', [
             'tittlePage'    => 'Dashboard Admin ' . auth()->user()->nama,
             'services'      =>  Services::all(),
-            'portofolios'   =>  Portfolio::all(),
-            'testimonies'   =>  testimoni::all()
+            'portofolio'   =>  Portfolio::all(),
+            'testimoni'   =>  testimoni::all()
         ]);
     }
 }

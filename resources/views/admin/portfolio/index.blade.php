@@ -290,7 +290,7 @@
                                                     <button type="button" class="btn btn-light"
                                                         data-bs-dismiss="modal">Close</button>
                                                     <button type="submit" class="btn btn-success" id="add-btn">Add
-                                                        Service</button>
+                                                        Portofolio</button>
                                                 </div>
                                             </div>
                                         </form>
