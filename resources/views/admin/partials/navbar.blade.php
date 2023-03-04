@@ -45,25 +45,28 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link {{ Request::is('*') ? 'active' : '' }}" data-key="t-analytics">
+                    <a href="/portfolio" class="nav-link {{ Request::is('portfolio*') ? 'active' : '' }}"
+                        data-key="t-analytics">
                         <i class="ri-alarm-warning-line"></i> <span data-key="t-multi-level">Portofolio</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a href="#" class="nav-link {{ Request::is('*') ? 'active' : '' }}" data-key="t-analytics">
                         <i class="ri-exchange-dollar-line"></i> <span data-key="t-multi-level">Price</span>
                     </a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
-                    <a href="#" class="nav-link {{ Request::is('*') ? 'active' : '' }}" data-key="t-analytics">
+                    <a href="/testimoni" class="nav-link {{ Request::is('testimoni*') ? 'active' : '' }}"
+                        data-key="t-analytics">
                         <i class="ri-double-quotes-l"></i> <span data-key="t-multi-level">Testimoni</span>
                     </a>
                 </li>
             </ul>
             <ul class="navbar-nav" id="navbar-nav">
-                <li class="menu-title"><span data-key="t-menu">Landing Page</span></li>
+                <li class="menu-title"><span data-key="t-menu">Landing Page MT</span></li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link {{ Request::is('*') ? 'active' : '' }}" data-key="t-analytics">
+                    <a href="/landingpage" class="nav-link {{ Request::is('landingpage*') ? 'active' : '' }}"
+                        data-key="t-analytics">
                         <i class="ri-send-plane-2-line"></i> <span data-key="t-multi-level">Landing Page</span>
                     </a>
                 </li>
