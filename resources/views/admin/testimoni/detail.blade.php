@@ -37,11 +37,11 @@
                             </div>
                             <!-- end col -->
 
-                            <div class="col-xl-12">
+                            <div class="col-xl-8">
                                 <div class="mt-xl-0 mt-5">
                                     <div class="d-flex">
                                         <div class="flex-grow-1">
-                                            <h4 class="d-none"></h4>
+                                            <h4>{{ strtoupper( $testimoni->nama) }}</h4>
                                         </div>
                                         <div class="flex-shrink-0">
                                             <div>
@@ -50,6 +50,10 @@
                                                         class="ri-pencil-fill align-bottom"></i></a>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="mt-4 text-muted">
+                                        <h5 class="fs-14">Kutipan :</h5>
+                                        <p>{!! $testimoni->kutipan !!}</p>
                                     </div>
                                     <!-- end card body -->
                                 </div>

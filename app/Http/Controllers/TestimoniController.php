@@ -37,6 +37,8 @@ class TestimoniController extends Controller
     {
         $validatedCreate = $request->validate([
             'image'     =>  'image|file',
+            'kutipan'   =>  'required',
+            'nama'      =>  'required'
         ]);
 
         if ($request->file('image')) {
@@ -75,6 +77,8 @@ class TestimoniController extends Controller
     {
         $validateUpdate = $request->validate([
             'image'     =>  'image|file',
+            'kutipan'   =>  'required',
+            'nama'      =>  'required'
         ]);
 
         if ($request->file('image')) {

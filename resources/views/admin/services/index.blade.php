@@ -165,7 +165,6 @@
                                             <th class="sort" data-sort="id">No</th>
                                             <th class="sort" data-sort="customer_name">Image</th>
                                             <th class="sort" data-sort="product_name">Tittle</th>
-                                            <th class="sort" data-sort="date">Deskripsi</th>
                                             <th class="sort" data-sort="city">Action</th>
                                         </tr>
                                     </thead>
@@ -178,7 +177,6 @@
                                                     alt="">
                                             </td>
                                             <td class="product_name">{{ $serv->tittle }}</td>
-                                            <td class="date">{{ $serv->deskripsi }}</td>
                                             <td>
                                                 <ul class="list-inline hstack gap-2 mb-0">
                                                     <li class="list-inline-item" data-bs-toggle="tooltip"

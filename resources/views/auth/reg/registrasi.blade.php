@@ -44,8 +44,19 @@
                             <p class="text-muted">Sign up to Login Dashboard MT.</p>
                         </div>
                         <div class="p-2 mt-4">
-                            <form class="needs-validation" action="/registrasi" method="POST">
+                            <form class="needs-validation" action="/registrasi" method="POST"
+                                enctype="multipart/form-data">
                                 @csrf
+                                <div class="mb-3">
+                                    <label for="profil" class="form-label">Profil </label>
+                                    <input type="file" name="foto" class="form-control" id="profil">
+                                    @error('foto')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                    @enderror
+                                </div>
+
                                 <div class="mb-3">
                                     <label for="nama" class="form-label">Nama <span class="text-danger">*</span></label>
                                     <input type="text" name="nama"

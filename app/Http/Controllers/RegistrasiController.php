@@ -15,13 +15,19 @@ class RegistrasiController extends Controller
 
     public function registrasi(Request $request)
     {
-        $validatecreate = $request->validate([
+        $rules = [
+            'foto'      =>  'image|file',
             'nama'      =>  'required',
             'username'  =>  'required',
             'email'     =>  'required|email',
-            'password'  =>  'required|min:8|max:10',
-        ]);
+            'password'  =>  'required|min:8',
+        ];
 
+        $validatecreate = $request->validate($rules);
+
+        if ($request->file('foto')) {
+            $validatecreate['foto']    = $request->file('foto')->store('profil-admin');
+        }
 
         $validatecreate['password'] = Hash::make($validatecreate['password']);
 

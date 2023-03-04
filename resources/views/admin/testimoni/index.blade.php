@@ -164,6 +164,7 @@
                                         <tr class="text-uppercase">
                                             <th class="sort" data-sort="id">No</th>
                                             <th class="sort" data-sort="customer_name">Image</th>
+                                            <th class="sort" data-sort="customer_name">Nama Pembuat</th>
                                             <th class="sort" data-sort="city">Action</th>
                                         </tr>
                                     </thead>
@@ -175,6 +176,7 @@
                                                 <img src="{{ asset('storage/'). '/' . $testi->image }}" height="45"
                                                     alt="">
                                             </td>
+                                            <td class="product_name">{{ $testi->nama }}</td>
                                             <td>
                                                 <ul class="list-inline hstack gap-2 mb-0">
                                                     <li class="list-inline-item" data-bs-toggle="tooltip"
@@ -252,6 +254,30 @@
                                                     class="form-control @error('image')is-invalid @enderror" required
                                                     autocomplete="off" />
                                                 @error('image')
+                                                <div class="invalid-feedback">
+                                                    {{ $message }}
+                                                </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="customername-field" class="form-label">Kutipan</label>
+                                                <input type="text" name="kutipan" id="customername-field"
+                                                    class="form-control @error('kutipan')is-invalid @enderror"
+                                                    placeholder="Enter Kutipan" value="{{ old('kutipan') }}" required
+                                                    autocomplete="off">
+                                                @error('kutipan')
+                                                <div class="invalid-feedback">
+                                                    {{ $message }}
+                                                </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="customername-field" class="form-label">Nama Pembuat</label>
+                                                <input type="text" name="nama" id="customername-field"
+                                                    class="form-control @error('nama')is-invalid @enderror"
+                                                    placeholder="Enter Nama Pembuat" value="{{ old('nama') }}" required
+                                                    autocomplete="off">
+                                                @error('nama')
                                                 <div class="invalid-feedback">
                                                     {{ $message }}
                                                 </div>

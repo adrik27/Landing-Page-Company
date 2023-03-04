@@ -54,7 +54,7 @@
 
                                     <div class="mt-4 text-muted">
                                         <h5 class="fs-14">Description :</h5>
-                                        <p>{{ $services->deskripsi }}</p>
+                                        <p>{!! $services->deskripsi !!}</p>
                                     </div>
                                     <!-- end card body -->
                                 </div>

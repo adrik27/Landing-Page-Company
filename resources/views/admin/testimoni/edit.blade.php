@@ -38,6 +38,22 @@
                 <form action="/testimoni/{{ $testimoni->id }}" method="POST" enctype="multipart/form-data">
                     @method('PUT')
                     @csrf
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label" for="product-title-input">Testimoni Nama Pembuat</label>
+                                <input type="text" name="nama" class="form-control" id="product-title-input"
+                                    placeholder="Enter Nama Pembuat" value="{{ old('nama',$testimoni->nama) }}">
+                            </div>
+                            <div>
+                                <label>Testimoni Kutipan</label>
+                                <textarea type="text" name="kutipan" class="form-control" id="product-title-input"
+                                    placeholder="Enter Kutipan" value="{{ old('kutipan',$testimoni->kutipan) }}">
+                                </textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end card -->
 
                     <div class="card">
                         <div class="card-header">
