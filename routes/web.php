@@ -26,8 +26,8 @@ use Illuminate\Support\Facades\Route;
 
 
 // Login
-Route::get('/', [LoginController::class, 'index'])->name('login')->middleware('guest');
-Route::post('/', [LoginController::class, 'login']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'login']);
 
 // Logout
 Route::post('/logout', [LoginController::class, 'Logout'])->middleware('auth');
@@ -53,4 +53,4 @@ Route::resource('/portfolio', PortfolioController::class)->middleware('auth');
 Route::resource('/testimoni', TestimoniController::class)->middleware('auth');
 
 // Landing page
-Route::get('/landingpage', [LandingpageController::class, 'index']);
+Route::get('/', [LandingpageController::class, 'index']);

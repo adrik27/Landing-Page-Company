@@ -65,7 +65,7 @@
             <ul class="navbar-nav" id="navbar-nav">
                 <li class="menu-title"><span data-key="t-menu">Landing Page MT</span></li>
                 <li class="nav-item">
-                    <a href="/landingpage" class="nav-link {{ Request::is('landingpage*') ? 'active' : '' }}"
+                    <a href="/" class="nav-link {{ Request::is('') ? 'active' : '' }}"
                         data-key="t-analytics">
                         <i class="ri-send-plane-2-line"></i> <span data-key="t-multi-level">Landing Page</span>
                     </a>
