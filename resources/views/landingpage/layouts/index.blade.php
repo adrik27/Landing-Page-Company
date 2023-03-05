@@ -37,7 +37,7 @@
                     <ul>
                         <li><a class="nav-link" href="#eight-banner">Home</a></li>
                         <li><a class="nav-link" href="#feature-eight">Services</a></li>
-                        <li><a class="nav-link" href="#eight-service">Portfolio</a></li>
+                        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li><a class="nav-link" href="#ei-team">About</a></li>
                         <li><a class="nav-link" href="#ei-testimonial">Testimoni</a></li>
                         <li><a class="nav-link" href="#ei-footer">Contact</a></li>
@@ -459,9 +459,10 @@
 
     <!-- Start of App Download  section
         ============================================= -->
-        <section id="ei-appdownload" class="ei-appdownload-section position-relative" data-background="assets/sassio/img/app-landing/background/appbg1.png">
+        <section id="portfolio" class="ei-appdownload-section position-relative" data-background="assets/sassio/img/app-landing/background/appbg1.png">
             <div class="container">
-                <div class="ei-appdownload-content">
+                <h2>Portfolio</h2>
+                {{-- <div class="ei-appdownload-content">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -492,7 +493,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img src="assets/sassio/img/app-landing/background/apps1.png" alt=""></div>
             <div class="ei-appdownloaad-shape app-shape2" data-parallax='{"x" : -120}'><img src="assets/sassio/img/app-landing/background/apps2.png" alt=""></div>
@@ -506,13 +507,15 @@
         ============================================= -->
         <section id="ei-team" class="ei-team-section">
             <div class="container">
+                <div class=" text-center">
+                    <h2 class="">
+                        <strong> Muria Tech</strong>
+                    </h2>
+                </div>
+                <p class="mb-4 mx-2">Muria Tech merupakan pengembang aplikasi web dan aplikasi mobile yang didukung oleh tim developer yang berpengalaman dan profesional dibidangnya. Hadir di Indonesia sejak tahun 2020, kami telah memiliki banyak pengalaman dalam menyelesaikan proyek-proyek dibidang IT untuk perusahaan, sekolah dan UMKM. Visi kami adalah untuk mendukung sebanyak mungkin perusahaan di Indonesia dengan solusi IT dan pemasaran digital terbaik, Menjadi partner terpercaya dalam memberikan Solusi IT.
+                    Dengan menjunjung tinggi profesionalisme dan layanan yang terbaik bagi klien, Muria Tech berharap bisa menjadi sebuah perusahaan yang dapat diandalkan sebagai perusahaan teknologi informasi terbaik.</p>
                 <div class="eight-section-title appeight-headline pera-content text-center">
                     <span class="eg-title-tag">Expert Team <i class="square-shape"><i></i><i></i><i></i><i></i></i></span>
-                    <h2>
-                        You will get good support
-                        <span>from our team.</span>
-                    </h2>
-                    <p>As a SAAS web crawler expert, I help organizations adjust to the expanding significance of internet promoting.</p>
                 </div>
                 <!-- /title -->
                 <div id="ei-team-slide" class="ei-team-content owl-carousel">
@@ -925,7 +928,7 @@
 
      <!-- Start of Newslatter  section
         ============================================= -->
-        <section id="ei-newslatter" class="ei-newslatter-section position-relative">
+        {{-- <section id="ei-newslatter" class="ei-newslatter-section position-relative">
             <div class="ei-newslatter-box position-relative">
                 <div class="container">
                     <div class="row">
@@ -952,7 +955,7 @@
             <div class="ei-newslatter-mockup">
                 <img src="assets/sassio/img/app-landing/mockup/n-mockup.png" alt="">
             </div>
-        </section>
+        </section> --}}
      <!-- End of Newslatter  section
         ============================================= -->
 
