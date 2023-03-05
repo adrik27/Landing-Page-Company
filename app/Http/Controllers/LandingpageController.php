@@ -8,6 +8,8 @@ class LandingpageController extends Controller
 {
     public function index()
     {
-        return view('landingpage.layouts.index');
+        return view('landingpage.layouts.index', [
+            'tittlePage'    =>  'MT | Landing Page'
+        ]);
     }
 }
