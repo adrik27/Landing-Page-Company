@@ -126,7 +126,7 @@
                         </div>
                         <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
-                            <img src="/storage/landing-page/hero.png" alt="">
+                            <img src="/assets/images/logo/logomuria.png" alt="">
                         </div>
                     </div>
                 </div>
