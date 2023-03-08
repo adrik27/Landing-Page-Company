@@ -31,7 +31,7 @@
     <header id="header-eight" class="main-header-eight">
         <div class="appheader-content">
             <div class="site-logo float-left">
-                <a href="#"><img src="/storage/header-image/logo-light-lg.png" alt="" width="180"></a>
+                <a href="#"><img src="/assets/images/logo/logomuria.png" alt="" width="180"></a>
             </div>
             <nav class="navigation-eight ul-li saasio_one_click">
                 <ul>
