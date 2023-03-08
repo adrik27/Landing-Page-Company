@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/assets/sassio/css/jquery.bxslider.min.css">
     <link rel="stylesheet" href="/assets/sassio/css/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="/assets/sassio/css/odometer-theme-default.css">
+    <link rel="stylesheet" href="/assets/sassio/css/flaticon-6.css">
     <link rel="stylesheet" href="/assets/sassio/css/flaticon.css">
     <link rel="stylesheet" href="/assets/sassio/css/style.css">
 </head>
@@ -37,7 +38,7 @@
                 <ul>
                     <li><a class="nav-link" href="#eight-banner">Home</a></li>
                     <li><a class="nav-link" href="#feature-eight">Services</a></li>
-                    <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link" href="#fun-fact">Portfolio</a></li>
                     <li><a class="nav-link" href="#ei-team">About</a></li>
                     <li><a class="nav-link" href="#ei-testimonial">Testimoni</a></li>
                     <li><a class="nav-link" href="#ei-footer">Contact</a></li>
@@ -126,7 +127,7 @@
                         </div>
                         <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
-                            <img src="/assets/images/logo/logomuria.png" alt="">
+                            <img src="/assets/images/logo/hero-image.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -202,7 +203,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeFromUp" data-wow-delay="900ms" data-wow-duration="1500ms">
                         <div class="eight-feature-box text-center position-relative">
                             <div class="feature-icon8 position-relative">
-                                <i class="flaticon-pen-tool"></i>
+                                <i class="flaticon-177-tablet"></i>
                                 <span class="ei-icon-bg"></span>
                             </div>
                             <div class="feature-text8 appeight-headline pera-content">
@@ -250,7 +251,7 @@
                         <a class="pager" data-slide-index="0">
                             <div class="ei-service-icon-text text-right appeight-headline pera-content">
                                 <div class="ei-service-icon float-right text-center">
-                                    <i class="flaticon-bug"></i>
+                                    <i class="flaticon-029-calendar"></i>
                                 </div>
                                 <div class="ei-service-text">
                                     <h3>Pengerjaan cepat</h3>
@@ -262,7 +263,7 @@
                         <a class="pager" data-slide-index="1">
                             <div class="ei-service-icon-text text-right appeight-headline pera-content">
                                 <div class="ei-service-icon float-right text-center">
-                                    <i class="flaticon-crop"></i>
+                                    <i class="flaticon-quality"></i>
                                 </div>
                                 <div class="ei-service-text">
                                     <h3>Hasil berkualitas</h3>
@@ -275,7 +276,7 @@
                         <a class="pager" data-slide-index="2">
                             <div class="ei-service-icon-text text-right appeight-headline pera-content">
                                 <div class="ei-service-icon float-right text-center">
-                                    <i class="flaticon-web-development"></i>
+                                    <i class="flaticon-diamond"></i>
                                 </div>
                                 <div class="ei-service-text">
                                     <h3>Bergaransi</h3>
@@ -492,11 +493,11 @@
 
     <!-- Start of App Download  section
         ============================================= -->
-    <section id="portfolio" class="ei-appdownload-section position-relative"
+    {{-- <section id="portfolio" class="ei-appdownload-section position-relative"
         data-background="/assets/sassio/img/app-landing/background/appbg1.png">
         <div class="container">
             <h2>Portfolio</h2>
-            {{-- <div class="ei-appdownload-content">
+            <div class="ei-appdownload-content">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
@@ -530,7 +531,7 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
         <div class="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img
                 src="/assets/sassio/img/app-landing/background/apps1.png" alt=""></div>
@@ -538,7 +539,7 @@
                 src="/assets/sassio/img/app-landing/background/apps2.png" alt=""></div>
         <div class="ei-appdownloaad-shape app-shape3" data-parallax='{"y" : -100}'><img
                 src="/assets/sassio/img/app-landing/background/apps3.png" alt=""></div>
-    </section>
+    </section> --}}
     <!-- End of App Download section
         ============================================= -->
 
