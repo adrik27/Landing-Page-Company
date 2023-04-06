@@ -40,8 +40,8 @@
                     <li><a class="nav-link" href="#feature-eight">Services</a></li>
                     <li><a class="nav-link" href="#fun-fact">Portfolio</a></li>
                     <li><a class="nav-link" href="#ei-team">About</a></li>
-                    <li><a class="nav-link" href="#ei-testimonial">Testimoni</a></li>
-                    <li><a class="nav-link" href="#ei-footer">Contact</a></li>
+                    {{-- <li><a class="nav-link" href="#ei-testimonial">Testimoni</a></li>
+                    <li><a class="nav-link" href="#ei-footer">Contact</a></li> --}}
                 </ul>
             </nav>
             <div class="h-eight-social ul-li float-right clearfix">
@@ -52,9 +52,9 @@
                                 class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
-            <div class="sign-up-btn-eight text-center float-right clearfix">
+            {{-- <div class="sign-up-btn-eight text-center float-right clearfix">
                 <a href="/login">sign In</a>
-            </div>
+            </div> --}}
         </div>
         <!-- /desktop-menu -->
         <div class="appi-ei-mobile_menu relative-position">
@@ -76,8 +76,8 @@
                             <li><a class="nav-link" href="#feature-eight">Services</a></li>
                             <li><a class="nav-link" href="#eight-service">Portfolio</a></li>
                             <li><a class="nav-link" href="#ei-team">About</a></li>
-                            <li><a class="nav-link" href="#ei-testimonial">Testimoni</a></li>
-                            <li><a class="nav-link" href="#ei-faq">FAQ</a></li>
+                            {{-- <li><a class="nav-link" href="#ei-testimonial">Testimoni</a></li>
+                            <li><a class="nav-link" href="#ei-faq">FAQ</a></li> --}}
                         </ul>
                     </nav>
                 </div>
@@ -110,7 +110,7 @@
                             <P>Buat Bisnis Anda Lebih Maju Dan Terlihat Lebih Profesional dengan Website dan Aplikasi
                                 Android yang Berkualitas </P>
                             <div class="ei-banner-btn">
-                                <a href="#"> Mulai sekarang</a>
+                                <a href="https://wa.wizard.id/31513e" target="_blank"> Pesan Sekarang</a>
                                 {{-- <a href="#"><span>or</span><i class="fas fa-power-off"></i> try it for free</a>
                                 --}}
                             </div>
@@ -291,8 +291,8 @@
             </div>
             <div class="eight-service-text position-relative appeight-headline wow fadeFromRight" data-wow-delay="300ms"
                 data-wow-duration="1500ms">
-                <div class="ei-service-slide-mbl" data-background="/assets/sassio/img/app-landing/mockup/smu1.png">
-                    <div class="slide-inner">
+                <div class="ei-service-slide-mbl" data-background="/assets/images/asset-1.png">
+                    {{-- <div class="slide-inner">
                         <div class="ei-service-slide">
                             <div class="slide-item">
                                 <div class="image">
@@ -316,7 +316,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <h2><strong> Banyak keuntungan</strong>
                     yang
@@ -336,18 +336,64 @@
     <section id="fun-fact" class="eg-fun-fact-section position-relative">
         <div class="container">
             {{-- row --}}
-            <div class="row">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
+            <div class="row d-flex justify-content-center ">
+                <h1 class="text-center">
+                    Our Project
+                </h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-3">
+                    <div class="card mr-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
 
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-3">
+                    <div class="card mr-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mr-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mr-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
     </section>
     <!-- End of Fun fact  section
         ============================================= -->
@@ -1022,7 +1068,7 @@
     <!-- Start of Footer  section
         ============================================= -->
     <section id="ei-footer" class="ei-footer-section position-relative">
-        <div class="container">
+        {{-- <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="ei-footer-widget pera-content appeight-headline">
@@ -1080,7 +1126,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="ei-footer-copyright">
             <div class="container">
                 <div class="ei-footer-copyright-content">
@@ -1101,12 +1147,12 @@
                 </div>
             </div>
         </div>
-        <div class="ei-footer-shape1 position-absolute" data-parallax='{"x" : 60}'><img
+        {{-- <div class="ei-footer-shape1 position-absolute" data-parallax='{"x" : 60}'><img
                 src="/assets/sassio/img/app-landing/shape/fo-shape1.png" alt=""></div>
         <div class="ei-footer-shape2 position-absolute" data-parallax='{"y" : 60}'><img
                 src="/assets/sassio/img/app-landing/shape/fo-shape2.png" alt=""></div>
         <div class="ei-footer-shape3 position-absolute"><img src="/assets/sassio/img/app-landing/shape/eimap.png"
-                alt=""></div>
+                alt=""></div> --}}
     </section>
     <!-- End of Footer  section
         ============================================= -->
