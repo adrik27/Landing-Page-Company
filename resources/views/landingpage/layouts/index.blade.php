@@ -335,64 +335,19 @@
         ============================================= -->
     <section id="fun-fact" class="eg-fun-fact-section position-relative">
         <div class="container">
+            {{-- row --}}
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="eg-funfact-content clearfix position-relative">
-                        <div class="eg-fun-fact-mockup wow fadeFromLeft" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <div class="main-mockup">
-                                <img src="/assets/sassio/img/app-landing/mockup/fmu1.png" alt="">
-                            </div>
-                            <div class="fn-shape fn-shape-item1" data-parallax='{"y" : 50}'><img
-                                    src="/assets/sassio/img/app-landing/mockup/fmu2.png" alt=""></div>
-                            <div class="fn-shape fn-shape-item2" data-parallax='{"y" : 60}'><img
-                                    src="/assets/sassio/img/app-landing/mockup/fmu3.png" alt=""></div>
-                            <div class="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'><img
-                                    src="/assets/sassio/img/app-landing/shape/fc1.png" alt=""></div>
-                            <div class="fn-shape fn-shape-item4" data-parallax='{"x" : -40}'><img
-                                    src="/assets/sassio/img/app-landing/shape/fc2.png" alt=""></div>
-                        </div>
-                        <div class="eg-funfact-text float-right wow fadeFromRight" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <div class="eight-section-title appeight-headline pera-content text-left">
-                                <span class="eg-title-tag"> Fun facts
-                                    <i class="square-shape"><i></i><i></i><i></i><i></i></i></span>
-                                <h2>We have some awesome
-                                    <span>funfacts for clients.</span>
-                                </h2>
-                                <p>As a app web crawler expert, I help organizations adjust to the expanding
-                                    significance of internet promoting.</p>
-                            </div>
-                            <!-- /title -->
-                            <div class="fun-fact-counter position-relative clearfix">
-                                <div class="eg-counter-number pera-content text-center">
-                                    <span class="odometer" data-count="20">00</span><strong>+</strong>
-                                    <p>Awesome
-                                        Integratios</p>
-                                </div>
-                                <div class="eg-counter-number pera-content text-center">
-                                    <span class="odometer" data-count="2000">00</span><strong>+</strong>
-                                    <p>Active
-                                        users</p>
-                                </div>
-                                <div class="eg-counter-number pera-content text-center">
-                                    <span class="odometer" data-count="5000">00</span><strong>+</strong>
-                                    <p>Downloads
-                                        done</p>
-                                </div>
-                                <div class="eg-counter-number pera-content text-center">
-                                    <span class="odometer" data-count="2500">00</span><strong>+</strong>
-                                    <p>5 stars
-                                        ratings</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
+
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's
+                            content.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="fn-bg-shape position-absolute"><img src="/assets/sassio/img/app-landing/shape/fns1.png" alt="">
-        </div>
     </section>
     <!-- End of Fun fact  section
         ============================================= -->
@@ -757,7 +712,7 @@
 
     <!-- Start of Testimonial section
     ============================================= -->
-    <section id="ei-testimonial" class="ei-testimonial-section position-relative"
+    {{-- <section id="ei-testimonial" class="ei-testimonial-section position-relative"
         data-background="/assets/sassio/img/app-landing/background/tbg.jpg">
         <div class="container">
             <div class="eight-section-title appeight-headline pera-content text-center">
@@ -868,7 +823,7 @@
                 <li><img src="/assets/sassio/img/app-landing/testimonial/tst2.jpg" alt=""></li>
             </ul>
         </div>
-    </section>
+    </section> --}}
     <!-- End of Testimonial section
     ============================================= -->
 
@@ -990,7 +945,7 @@
 
     <!-- Start of Partner  section
         ============================================= -->
-    <section id="ei-partner" class="ei-partner-section">
+    {{-- <section id="ei-partner" class="ei-partner-section">
         <div class="container">
             <div class="ei-partner-content">
                 <div id="ei-partner-slide" class="partner-slide-area owl-carousel">
@@ -1023,7 +978,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End  of Partner  section
         ============================================= -->
 
@@ -1132,7 +1087,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="ei-copyright-text">
-                                <p>© 2021 <a href="#">Themexriver</a></p>
+                                <p>© <a href="#">Muria Tech</a></p>
                             </div>
                         </div>
                         <div class="col-md-8">
