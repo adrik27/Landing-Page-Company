@@ -34,7 +34,7 @@
             <div class="site-logo float-left">
                 <a href="#"><img src="/assets/images/logo/logomuria.png" alt="" width="180"></a>
             </div>
-            <nav class="navigation-eight ul-li saasio_one_click">
+            <nav class="navigation-eight ul-li saasio_one_click" style="margin-left: 100px">
                 <ul>
                     <li><a class="nav-link" href="#eight-banner">Home</a></li>
                     <li><a class="nav-link" href="#feature-eight">Services</a></li>
@@ -68,7 +68,7 @@
                         <i class="far fa-times-circle"></i>
                     </div>
                     <div class="m-brand-logo text-center">
-                        <img src="/assets/sassio/img/app-landing/logo/f-logo.png" alt="">
+                        <img src="/assets/images/logo/logomuria.png" alt="">
                     </div>
                     <nav class="appi-ei-mobile-main-navigation saasio_one_click  clearfix ul-li">
                         <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
@@ -127,7 +127,7 @@
                         </div>
                         <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
-                            <img src="/assets/images/logo/hero-image.png" alt="">
+                            <img src="/assets/images/logo/hero-image.png" alt="" style="margin-top: -11vh">
                         </div>
                     </div>
                 </div>
@@ -341,9 +341,27 @@
                     Our Project
                 </h1>
             </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-3">
-                    <div class="card mr-3" style="width: 18rem;">
+            <div class="row d-flex items-center justify-content-center">
+                <div class="col-md-3">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/portofolio/portofolio1.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <p class="card-text text-center">Landing Page Furniture</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 align-items-center">
+                    <div class="card mt-3" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/images/portofolio/portofolio2.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <p class="card-text">Website Undangan Pernikahan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 align-items-center">
+                    <div class="card mt-3" style="width: 18rem;">
                         <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
 
                         <div class="card-body">
@@ -355,34 +373,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card mr-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
-
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's
-                                content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card mr-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
-
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's
-                                content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card mr-3" style="width: 18rem;">
+                <div class="col-md-3 align-items-center">
+                    <div class="card mt-3" style="width: 18rem;">
                         <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
 
                         <div class="card-body">
@@ -565,26 +557,27 @@
                 <span class="eg-title-tag">Expert Team <i class="square-shape"><i></i><i></i><i></i><i></i></i></span>
             </div>
             <!-- /title -->
-            <div id="ei-team-slide" class="ei-team-content owl-carousel">
+            <div id="ei-team-slide" class="ei-team-content owl-carousel ">
                 <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm1.png" alt="">
+                            <img src="/assets/images/profil/profil1.jpg" alt="">
                             <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
                                     alt=""></span>
                             <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
                                     alt=""></span>
                         </div>
                         <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/adrikmuhammad_/?hl=id" target="_blank"><i
+                                    class="fab fa-instagram "></i></a>
+                            <a href="https://github.com/adrik27" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/muhammad-adrik-al-izza-99815b1b1/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="ei-team-text appeight-headline text-center pera-content">
-                        <h3>Anita Bath</h3>
-                        <p>Android Developer</p>
+                        <h3>M.Adrik Al'Izza</h3>
+                        <p>Web Developer</p>
                     </div>
                 </div>
                 <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -608,7 +601,7 @@
                         <p>iOS Developer</p>
                     </div>
                 </div>
-                <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                {{-- <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
                             <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
@@ -628,8 +621,8 @@
                         <h3>Skye Blue</h3>
                         <p>Windows Developer</p>
                     </div>
-                </div>
-                <div class="ei-team-pic-text">
+                </div> --}}
+                {{-- <div class="ei-team-pic-text">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
                             <img src="/assets/sassio/img/app-landing/team/tm1.png" alt="">
@@ -649,8 +642,8 @@
                         <h3>Staum Clowd</h3>
                         <p>Android Developer</p>
                     </div>
-                </div>
-                <div class="ei-team-pic-text">
+                </div> --}}
+                {{-- <div class="ei-team-pic-text">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
                             <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
@@ -670,8 +663,8 @@
                         <h3>Dave Allippa</h3>
                         <p>iOS Developer</p>
                     </div>
-                </div>
-                <div class="ei-team-pic-text">
+                </div> --}}
+                {{-- <div class="ei-team-pic-text">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
                             <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
@@ -691,7 +684,7 @@
                         <h3>Mark Ateer</h3>
                         <p>Windows Developer</p>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
