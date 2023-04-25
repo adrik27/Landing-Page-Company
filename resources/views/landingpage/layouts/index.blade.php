@@ -291,8 +291,8 @@
             </div>
             <div class="eight-service-text position-relative appeight-headline wow fadeFromRight" data-wow-delay="300ms"
                 data-wow-duration="1500ms">
-                <div class="ei-service-slide-mbl" data-background="/assets/images/asset-1.png">
-                    {{-- <div class="slide-inner">
+                {{-- <div class="ei-service-slide-mbl" data-background="/assets/images/new1.png">
+                    <div class="slide-inner">
                         <div class="ei-service-slide">
                             <div class="slide-item">
                                 <div class="image">
@@ -316,8 +316,8 @@
                             </div>
 
                         </div>
-                    </div> --}}
-                </div>
+                    </div>
+                </div> --}}
                 <h2><strong> Banyak keuntungan</strong>
                     yang
                     anda dapatkan </h2>
@@ -342,203 +342,59 @@
                 </h1>
             </div>
             <div class="row d-flex items-center justify-content-center">
-                <div class="col-md-3">
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/images/portofolio/portofolio1.jpg" alt="Card image cap">
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="/assets/images/portofolio/mebeljepara.png"
+                            alt="Web Mebel Jepara">
+
+                        <div class="card-body">
+                            <p class="card-text text-center">Management Mebel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="/assets/images/portofolio/landingpage.png" alt="Card image cap">
+
+                        <div class="card-body">
+                            <p class="card-text text-center">Landing Page Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="/assets/images/portofolio/portofolio1.jpg"
+                            alt="Landing Page Furniture">
 
                         <div class="card-body">
                             <p class="card-text text-center">Landing Page Furniture</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 align-items-center">
-                    <div class="card mt-3" style="width: 18rem;">
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
                         <img class="card-img-top" src="/assets/images/portofolio/portofolio2.jpg" alt="Card image cap">
 
                         <div class="card-body">
-                            <p class="card-text">Website Undangan Pernikahan</p>
+                            <p class="card-text text-center">Undangan Pernikahan</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 align-items-center">
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="/assets/images/portofolio/managementsekolah.jpg"
+                            alt="Management Sekolah">
 
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's
-                                content.</p>
+                            <p class="card-text text-center">Management Sekolah</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 align-items-center">
-                    <div class="card mt-3" style="width: 18rem;">
-                        <img class="card-img-top" src="/assets/images/bg-auth.jpg" alt="Card image cap">
 
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's
-                                content.</p>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
     </section>
-    <!-- End of Fun fact  section
-        ============================================= -->
 
-    <!-- Start of How work  section
-        ============================================= -->
-    {{-- <section id="eg-how-work" class="eg-how-work-section position-relative">
-        <div class="how-work-bg-shape position-absolute"><img src="/assets/sassio/img/app-landing/shape/hws.png" alt="">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="ei-how-work-content-item wow fadeFromUp" data-wow-delay="300ms"
-                        data-wow-duration="1500ms">
-                        <div class="eight-section-title appeight-headline pera-content text-left">
-                            <span class="eg-title-tag">
-                                How this app is working?<i class="square-shape"><i></i><i></i><i></i><i></i></i>
-                            </span>
-                            <h2>This app is working by
-                                <span>some steps!</span>
-                            </h2>
-                        </div>
-                        <!-- /title -->
-                        <div id="how-workscrollbar" class="how-work-scroller">
-                            <div class="eg-how-work-content">
-                                <div class="eg-how-work-icon-text position-relative">
-                                    <span class="scroller-no">1</span>
-                                    <div class="eg-how-work-icon float-left text-center">
-                                        <i class="flaticon-verified-user"></i>
-                                    </div>
-                                    <div class="eg-how-work-text appeight-headline pera-content">
-                                        <h3>Make a profile</h3>
-                                        <p>As a app web crawler expert, I help organizations adjusting.</p>
-                                    </div>
-                                </div>
-                                <div class="eg-how-work-icon-text position-relative">
-                                    <span class="scroller-no">2</span>
-                                    <div class="eg-how-work-icon float-left text-center">
-                                        <i class="flaticon-download"></i>
-                                    </div>
-                                    <div class="eg-how-work-text appeight-headline pera-content">
-                                        <h3>Download it for Free</h3>
-                                        <p>As a app web crawler expert, I help organizations adjusting.</p>
-                                    </div>
-                                </div>
-                                <div class="eg-how-work-icon-text position-relative">
-                                    <span class="scroller-no">3</span>
-                                    <div class="eg-how-work-icon float-left text-center">
-                                        <i class="flaticon-corporate-identity"></i>
-                                    </div>
-                                    <div class="eg-how-work-text appeight-headline pera-content">
-                                        <h3>Input Identity</h3>
-                                        <p>As a app web crawler expert, I help organizations adjusting.</p>
-                                    </div>
-                                </div>
-                                <div class="eg-how-work-icon-text position-relative">
-                                    <span class="scroller-no">4</span>
-                                    <div class="eg-how-work-icon float-left text-center">
-                                        <i class="flaticon-text"></i>
-                                    </div>
-                                    <div class="eg-how-work-text appeight-headline pera-content">
-                                        <h3>Write Details</h3>
-                                        <p>As a app web crawler expert, I help organizations adjusting.</p>
-                                    </div>
-                                </div>
-                                <div class="eg-how-work-icon-text position-relative">
-                                    <span class="scroller-no">5</span>
-                                    <div class="eg-how-work-icon float-left text-center">
-                                        <i class="flaticon-idea"></i>
-                                    </div>
-                                    <div class="eg-how-work-text appeight-headline pera-content">
-                                        <h3>Now Use It</h3>
-                                        <p>As a app web crawler expert, I help organizations adjusting.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="how-work-mockup position-relative wow fadeFromUp" data-wow-delay="600ms"
-                        data-wow-duration="1500ms">
-                        <div class="hw-mockup-img">
-                            <img src="/assets/sassio/img/app-landing/mockup/hw.gif" alt="">
-                        </div>
-                        <div class="hw-shape1 position-absolute" data-parallax='{"x" : 40}'><img
-                                src="/assets/sassio/img/app-landing/shape/fc1.png" alt=""></div>
-                        <div class="hw-shape2 position-absolute" data-parallax='{"x" : -30}'><img
-                                src="/assets/sassio/img/app-landing/shape/fc2.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- End  of How work  section
-        ============================================= -->
-
-
-    <!-- Start of App Download  section
-        ============================================= -->
-    {{-- <section id="portfolio" class="ei-appdownload-section position-relative"
-        data-background="/assets/sassio/img/app-landing/background/appbg1.png">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="ei-appdownload-content">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <img src="/assets/sassio/img/app-landing/mockup/amu1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="ei-app-down-text wow fadeFromLeft" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <div class="eight-section-title appeight-headline pera-content text-left">
-                                <span class="eg-title-tag">
-                                    App Download<i class="square-shape"><i></i><i></i><i></i><i></i></i>
-                                </span>
-                                <h2>This app is available for
-                                    <span>your smart phone.</span>
-                                </h2>
-                                <p>As a SAAS web crawler expert, I help organizations adjust to the expanding
-                                    significance of internet promoting.</p>
-                            </div>
-                            <!-- /title -->
-                            <div class="app-down-btn">
-                                <a href="#"><img src="/assets/sassio/img/app-landing/shape/btn1.png" alt=""></a>
-                                <a href="#"><img src="/assets/sassio/img/app-landing/shape/btn2.png" alt=""></a>
-                            </div>
-                            <div class="ei-download-btn pera-content">
-                                <div class="download-icon float-left"><i class="flaticon-idea"></i></div>
-                                <p>Are you interested for this app?</p>
-                                <a href="#">Learn More </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img
-                src="/assets/sassio/img/app-landing/background/apps1.png" alt=""></div>
-        <div class="ei-appdownloaad-shape app-shape2" data-parallax='{"x" : -120}'><img
-                src="/assets/sassio/img/app-landing/background/apps2.png" alt=""></div>
-        <div class="ei-appdownloaad-shape app-shape3" data-parallax='{"y" : -100}'><img
-                src="/assets/sassio/img/app-landing/background/apps3.png" alt=""></div>
-    </section> --}}
-    <!-- End of App Download section
-        ============================================= -->
-
-
-    <!-- Start of team section
-        ============================================= -->
     <section id="ei-team" class="ei-team-section">
         <div class="container">
             <div class=" text-center">
@@ -557,7 +413,29 @@
                 <span class="eg-title-tag">Expert Team <i class="square-shape"><i></i><i></i><i></i><i></i></i></span>
             </div>
             <!-- /title -->
-            <div id="ei-team-slide" class="ei-team-content owl-carousel ">
+            <div id="ei-team-slide" class="ei-team-content owl-carousel">
+
+                <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="ei-team-img position-relative">
+                        <div class="team-mem-img-ei text-center position-relative">
+                            <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
+                            <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
+                                    alt=""></span>
+                            <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
+                                    alt=""></span>
+                        </div>
+                        <div class="ei-team-social">
+                            <a href="#"><i class="fab fa-facebook-f "></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="ei-team-text appeight-headline text-center pera-content">
+                        <h3>Ahmad Ahsana Taqwim</h3>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
                 <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
@@ -580,10 +458,10 @@
                         <p>Web Developer</p>
                     </div>
                 </div>
-                <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
+                            <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
                             <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
                                     alt=""></span>
                             <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
@@ -597,97 +475,78 @@
                         </div>
                     </div>
                     <div class="ei-team-text appeight-headline text-center pera-content">
-                        <h3>Bea Mine</h3>
-                        <p>iOS Developer</p>
+                        <h3>Dzulfikri</h3>
+                        <p>Mobile Developer</p>
                     </div>
                 </div>
-                {{-- <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="ei-team-img position-relative">
-                        <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
-                            <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                                    alt=""></span>
-                            <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                                    alt=""></span>
-                        </div>
-                        <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="ei-team-text appeight-headline text-center pera-content">
-                        <h3>Skye Blue</h3>
-                        <p>Windows Developer</p>
-                    </div>
-                </div> --}}
-                {{-- <div class="ei-team-pic-text">
-                    <div class="ei-team-img position-relative">
-                        <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm1.png" alt="">
-                            <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                                    alt=""></span>
-                            <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                                    alt=""></span>
-                        </div>
-                        <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="ei-team-text appeight-headline text-center pera-content">
-                        <h3>Staum Clowd</h3>
-                        <p>Android Developer</p>
-                    </div>
-                </div> --}}
-                {{-- <div class="ei-team-pic-text">
-                    <div class="ei-team-img position-relative">
-                        <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
-                            <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                                    alt=""></span>
-                            <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                                    alt=""></span>
-                        </div>
-                        <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="ei-team-text appeight-headline text-center pera-content">
-                        <h3>Dave Allippa</h3>
-                        <p>iOS Developer</p>
-                    </div>
-                </div> --}}
-                {{-- <div class="ei-team-pic-text">
-                    <div class="ei-team-img position-relative">
-                        <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
-                            <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                                    alt=""></span>
-                            <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                                    alt=""></span>
-                        </div>
-                        <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="ei-team-text appeight-headline text-center pera-content">
-                        <h3>Mark Ateer</h3>
-                        <p>Windows Developer</p>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </section>
+
+    {{-- <div class="ei-team-pic-text">
+        <div class="ei-team-img position-relative">
+            <div class="team-mem-img-ei text-center position-relative">
+                <img src="/assets/sassio/img/app-landing/team/tm1.png" alt="">
+                <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
+                        alt=""></span>
+                <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
+                        alt=""></span>
+            </div>
+            <div class="ei-team-social">
+                <a href="#"><i class="fab fa-facebook-f "></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="ei-team-text appeight-headline text-center pera-content">
+            <h3>Staum Clowd</h3>
+            <p>Android Developer</p>
+        </div>
+    </div> --}}
+    {{-- <div class="ei-team-pic-text">
+        <div class="ei-team-img position-relative">
+            <div class="team-mem-img-ei text-center position-relative">
+                <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
+                <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
+                        alt=""></span>
+                <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
+                        alt=""></span>
+            </div>
+            <div class="ei-team-social">
+                <a href="#"><i class="fab fa-facebook-f "></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="ei-team-text appeight-headline text-center pera-content">
+            <h3>Dave Allippa</h3>
+            <p>iOS Developer</p>
+        </div>
+    </div> --}}
+    {{-- <div class="ei-team-pic-text">
+        <div class="ei-team-img position-relative">
+            <div class="team-mem-img-ei text-center position-relative">
+                <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
+                <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
+                        alt=""></span>
+                <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
+                        alt=""></span>
+            </div>
+            <div class="ei-team-social">
+                <a href="#"><i class="fab fa-facebook-f "></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="ei-team-text appeight-headline text-center pera-content">
+            <h3>Mark Ateer</h3>
+            <p>Windows Developer</p>
+        </div>
+    </div> --}}
+
     <!-- End  of team section
         ============================================= -->
 
@@ -1126,14 +985,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="ei-copyright-text">
-                                <p>© <a href="#">Muria Tech</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="ei-copyright-menu">
-                                <a href="#">Help</a>
-                                <a href="#">Terms & Conditions </a>
-                                <a href="#">Privacy </a>
+                                Design & Develop by MuriaTech ❤️
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>
+                                {{-- <p>© <a href="#">Muria Tech</a></p> --}}
                             </div>
                         </div>
                     </div>
