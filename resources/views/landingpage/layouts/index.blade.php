@@ -418,17 +418,18 @@
                 <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
+                            <img src="/assets/images/profil/ahmad.jpg" alt="">
                             <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
                                     alt=""></span>
                             <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
                                     alt=""></span>
                         </div>
                         <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/ahmadahsanataqwim?mibextid=ZbWKwL"><i
+                                    class="fab fa-facebook-f "></i></a>
+                            <a href="https://instagram.com/ahmad_ahsn?igshid=NzMyMjgxZWIzNw=="><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/Ahmadahsana"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="ei-team-text appeight-headline text-center pera-content">
@@ -461,17 +462,16 @@
                 <div class="ei-team-pic-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="ei-team-img position-relative">
                         <div class="team-mem-img-ei text-center position-relative">
-                            <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
+                            <img src="/assets/images/profil/fikri.jpg" alt="">
                             <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
                                     alt=""></span>
                             <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
                                     alt=""></span>
                         </div>
                         <div class="ei-team-social">
-                            <a href="#"><i class="fab fa-facebook-f "></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/mdfikrie"><i class="fab fa-github "></i></a>
+                            <a href="https://www.linkedin.com/in/muhammad-dzulfikri-2a746821b"><i
+                                    class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="ei-team-text appeight-headline text-center pera-content">
