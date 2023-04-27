@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/assets/sassio/css/flaticon-6.css">
     <link rel="stylesheet" href="/assets/sassio/css/flaticon.css">
     <link rel="stylesheet" href="/assets/sassio/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body class="app-eight-home" data-spy="scroll" data-target=".navigation-eight" data-offset="80">
@@ -291,33 +292,6 @@
             </div>
             <div class="eight-service-text position-relative appeight-headline wow fadeFromRight" data-wow-delay="300ms"
                 data-wow-duration="1500ms">
-                {{-- <div class="ei-service-slide-mbl" data-background="/assets/images/new1.png">
-                    <div class="slide-inner">
-                        <div class="ei-service-slide">
-                            <div class="slide-item">
-                                <div class="image">
-                                    <img src="/assets/sassio/img/app-landing/screenshoot/slider-01.jpg" alt="" />
-                                </div>
-                            </div>
-                            <div class="slide-item">
-                                <div class="image">
-                                    <img src="/assets/sassio/img/app-landing/screenshoot/slider-01.jpg" alt="" />
-                                </div>
-                            </div>
-                            <div class="slide-item">
-                                <div class="image">
-                                    <img src="/assets/sassio/img/app-landing/screenshoot/slider-01.jpg" alt="" />
-                                </div>
-                            </div>
-                            <div class="slide-item">
-                                <div class="image">
-                                    <img src="/assets/sassio/img/app-landing/screenshoot/slider-01.jpg" alt="" />
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div> --}}
                 <h2><strong> Banyak keuntungan</strong>
                     yang
                     anda dapatkan </h2>
@@ -344,49 +318,89 @@
             <div class="row d-flex items-center justify-content-center">
                 <div class="col-md-5 align-items-center">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="/assets/images/portofolio/mebeljepara.png"
-                            alt="Web Mebel Jepara">
+                        <a href="#gambar-1">
+                            <img class="card-img-top" src="/assets/images/portofolio/mebeljepara.png"
+                                alt="Web Mebel Jepara">
 
-                        <div class="card-body">
-                            <p class="card-text text-center">Management Mebel</p>
+                            <div class="card-body">
+                                <p class="card-text text-center">Management Mebel</p>
+                            </div>
+                        </a>
+
+                        <div class="overlay" id="gambar-1">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/mebeljepara.png" alt="Web Mebel Jepara">
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md-5 align-items-center">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="/assets/images/portofolio/landingpage.png" alt="Card image cap">
+                        <a href="#gambar-2">
+                            <img class="card-img-top" src="/assets/images/portofolio/landingpage.png"
+                                alt="Card image cap">
 
-                        <div class="card-body">
-                            <p class="card-text text-center">Landing Page Company</p>
+                            <div class="card-body">
+                                <p class="card-text text-center">Landing Page Company</p>
+                            </div>
+                        </a>
+
+                        <div class="overlay" id="gambar-2">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/landingpage.png" alt="Web Mebel Jepara">
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="/assets/images/portofolio/portofolio1.jpg"
-                            alt="Landing Page Furniture">
+                        <a href="#gambar-3">
+                            <img class="card-img-top" src="/assets/images/portofolio/portofolio1.jpg"
+                                alt="Landing Page Furniture">
 
-                        <div class="card-body">
-                            <p class="card-text text-center">Landing Page Furniture</p>
+                            <div class="card-body">
+                                <p class="card-text text-center">Landing Page Furniture</p>
+                            </div>
+                        </a>
+
+                        <div class="overlay" id="gambar-3">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/portofolio1.jpg" alt="Web Mebel Jepara">
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md-5 align-items-center">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="/assets/images/portofolio/portofolio2.jpg" alt="Card image cap">
+                        <a href="#gambar-4">
+                            <img class="card-img-top" src="/assets/images/portofolio/portofolio2.jpg"
+                                alt="Card image cap">
 
-                        <div class="card-body">
-                            <p class="card-text text-center">Undangan Pernikahan</p>
+                            <div class="card-body">
+                                <p class="card-text text-center">Undangan Pernikahan</p>
+                            </div>
+                        </a>
+
+                        <div class="overlay" id="gambar-4">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/portofolio2.jpg" alt="Web Mebel Jepara">
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md-5 align-items-center">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="/assets/images/portofolio/managementsekolah.jpg"
-                            alt="Management Sekolah">
+                        <a href="#gambar-5">
+                            <img class="card-img-top" src="/assets/images/portofolio/managementsekolah.jpg"
+                                alt="Management Sekolah">
 
-                        <div class="card-body">
-                            <p class="card-text text-center">Management Sekolah</p>
+                            <div class="card-body">
+                                <p class="card-text text-center">Management Sekolah</p>
+                            </div>
+                        </a>
+                        <div class="overlay" id="gambar-5">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/managementsekolah.jpg" alt="Web Mebel Jepara">
                         </div>
                     </div>
                 </div>
@@ -482,71 +496,6 @@
             </div>
         </div>
     </section>
-
-    {{-- <div class="ei-team-pic-text">
-        <div class="ei-team-img position-relative">
-            <div class="team-mem-img-ei text-center position-relative">
-                <img src="/assets/sassio/img/app-landing/team/tm1.png" alt="">
-                <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                        alt=""></span>
-                <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                        alt=""></span>
-            </div>
-            <div class="ei-team-social">
-                <a href="#"><i class="fab fa-facebook-f "></i></a>
-                <a href="#"><i class="fab fa-behance"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-        <div class="ei-team-text appeight-headline text-center pera-content">
-            <h3>Staum Clowd</h3>
-            <p>Android Developer</p>
-        </div>
-    </div> --}}
-    {{-- <div class="ei-team-pic-text">
-        <div class="ei-team-img position-relative">
-            <div class="team-mem-img-ei text-center position-relative">
-                <img src="/assets/sassio/img/app-landing/team/tm2.png" alt="">
-                <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                        alt=""></span>
-                <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                        alt=""></span>
-            </div>
-            <div class="ei-team-social">
-                <a href="#"><i class="fab fa-facebook-f "></i></a>
-                <a href="#"><i class="fab fa-behance"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-        <div class="ei-team-text appeight-headline text-center pera-content">
-            <h3>Dave Allippa</h3>
-            <p>iOS Developer</p>
-        </div>
-    </div> --}}
-    {{-- <div class="ei-team-pic-text">
-        <div class="ei-team-img position-relative">
-            <div class="team-mem-img-ei text-center position-relative">
-                <img src="/assets/sassio/img/app-landing/team/tm3.png" alt="">
-                <span class="mshape-bg shape-bg1"><img src="/assets/sassio/img/app-landing/team/msbg1.png"
-                        alt=""></span>
-                <span class="mshape-bg shape-bg2"><img src="/assets/sassio/img/app-landing/team/msbg2.png"
-                        alt=""></span>
-            </div>
-            <div class="ei-team-social">
-                <a href="#"><i class="fab fa-facebook-f "></i></a>
-                <a href="#"><i class="fab fa-behance"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-        <div class="ei-team-text appeight-headline text-center pera-content">
-            <h3>Mark Ateer</h3>
-            <p>Windows Developer</p>
-        </div>
-    </div> --}}
-
     <!-- End  of team section
         ============================================= -->
 
