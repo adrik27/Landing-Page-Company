@@ -443,7 +443,7 @@
                                     class="fab fa-facebook-f "></i></a>
                             <a href="https://instagram.com/ahmad_ahsn?igshid=NzMyMjgxZWIzNw=="><i
                                     class="fab fa-instagram"></i></a>
-                            <a href="https://github.com/Ahmadahsana"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Ahmadahsana"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                     <div class="ei-team-text appeight-headline text-center pera-content">
