@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/assets/sassio/css/flaticon.css">
     <link rel="stylesheet" href="/assets/sassio/css/style.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
 <body class="app-eight-home" data-spy="scroll" data-target=".navigation-eight" data-offset="80">
@@ -110,8 +111,10 @@
                             </h1>
                             <P>Buat Bisnis Anda Lebih Maju Dan Terlihat Lebih Profesional dengan Website dan Aplikasi
                                 Android yang Berkualitas </P>
-                            <div class="ei-banner-btn">
-                                <a href="https://wa.wizard.id/31513e" target="_blank"> Pesan Sekarang</a>
+                            <div class="ei-banner-btn"
+                                style="position: absolute;z-index: 999;padding-left: 90px;padding-top: 10px">
+                                <a href="https://wa.wizard.id/31513e" target="_blank"> Pesan
+                                    Sekarang</a>
                                 {{-- <a href="#"><span>or</span><i class="fas fa-power-off"></i> try it for free</a>
                                 --}}
                             </div>
@@ -128,7 +131,7 @@
                         </div>
                         <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
-                            <img src="/assets/images/logo/hero-image.png" alt="" style="margin-top: -11vh">
+                            <img src="/assets/images/logo/hero-image.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -318,6 +321,54 @@
             <div class="row d-flex items-center justify-content-center">
                 <div class="col-md-5 align-items-center">
                     <div class="card mt-3">
+                        <a href="#gambar-5">
+                            <img class="card-img-top" src="/assets/images/portofolio/managementijin.png"
+                                alt="website managemet ijin">
+
+                            <div class="card-body">
+                                <p class="card-text text-center">Website Management Ijin Kerja</p>
+                            </div>
+                        </a>
+                        <div class="overlay" id="gambar-5">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/managementijin.png" alt="website managemet ijin">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
+                        <a href="#gambar-5">
+                            <img class="card-img-top" src="/assets/images/portofolio/pesat.png"
+                                alt="pemesanan tiket konser">
+
+                            <div class="card-body">
+                                <p class="card-text text-center">Pemesanan Tiket Konser</p>
+                            </div>
+                        </a>
+                        <div class="overlay" id="gambar-5">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/pesat.png" alt="Web Mebel Jepara">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
+                        <a href="#gambar-5">
+                            <img class="card-img-top" src="/assets/images/portofolio/managementsekolah.jpg"
+                                alt="Management Sekolah">
+
+                            <div class="card-body">
+                                <p class="card-text text-center">Management Sekolah</p>
+                            </div>
+                        </a>
+                        <div class="overlay" id="gambar-5">
+                            <a href="#fun-fact" class="close">X</a>
+                            <img src="/assets/images/portofolio/managementsekolah.jpg" alt="Web Mebel Jepara">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 align-items-center">
+                    <div class="card mt-3">
                         <a href="#gambar-1">
                             <img class="card-img-top" src="/assets/images/portofolio/mebeljepara.png"
                                 alt="Web Mebel Jepara">
@@ -388,23 +439,6 @@
 
                     </div>
                 </div>
-                <div class="col-md-5 align-items-center">
-                    <div class="card mt-3">
-                        <a href="#gambar-5">
-                            <img class="card-img-top" src="/assets/images/portofolio/managementsekolah.jpg"
-                                alt="Management Sekolah">
-
-                            <div class="card-body">
-                                <p class="card-text text-center">Management Sekolah</p>
-                            </div>
-                        </a>
-                        <div class="overlay" id="gambar-5">
-                            <a href="#fun-fact" class="close">X</a>
-                            <img src="/assets/images/portofolio/managementsekolah.jpg" alt="Web Mebel Jepara">
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -973,6 +1007,7 @@
     <script src="/assets/sassio/js/swiper.min.js"></script>
     <script src="/assets/sassio/js/typer-new.js"></script>
     <script src="/assets/sassio/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
